@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    .clip-diagonal {
+      clip-path: polygon(0 0, 100% 0, 100% 70%, 0 50%);
+    }
+    .clip-diagonal-flipped {
+      clip-path: polygon(0 50%, 100% 70%, 100% 100%, 0 100%);
+    }
+  }
+  
+  @layer utilities {
+    .clip-diagonal-top {
+      clip-path: polygon(  0 90%, 100% 0%, 100% 100%, 0 100%);
+    }
+    .clip-diagonal-bottom {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+  }
+  
+
+  body {
+    font-family:" monospace";
+  }
