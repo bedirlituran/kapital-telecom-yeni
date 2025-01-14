@@ -9,7 +9,7 @@ import Navbar from "./components/Hero";
 import Haqqimizda from "./Haqqimizda";
 import { Routes, Route } from "react-router-dom";
 import Kanallar from "./Kanallar";
-
+import WhatsappButton from "./components/WhatsAppButton";
 function App() {
   const kompaniyaRef = useRef(null);
   const footref = useRef(null);
@@ -19,7 +19,8 @@ function App() {
   };
 
   return (
-    <Routes>
+<div className="overflow-x-hidden flex-col">
+<Routes>
       {/* Ana Sayfa */}
       <Route
         path="/"
@@ -64,6 +65,8 @@ function App() {
       <Route path="/Haqqimizda" element={<Haqqimizda />} />
       <Route path="/Kanallar" element={<Kanallar />}/>
     </Routes>
+    <WhatsappButton/>
+</div>
   );
 }
 

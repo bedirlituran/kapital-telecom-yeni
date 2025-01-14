@@ -1,9 +1,10 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Typed from "typed.js";
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const Hero = ({ onNavigate }) => {
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const typed = new Typed(".typing", {
@@ -24,25 +25,25 @@ const Hero = ({ onNavigate }) => {
     };
   }, []);
 
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <div className="w-full h-screen py-1 bg-gray-900 dark:bg-gray-200">
       <header className="lg:px-16 px-4 flex flex-wrap items-center py-1 shadow-lg">
-        <div className="flex-1 flex justify-start items-start ">
-          {/* <img
-            className="sm:w-[10rem] w-[7rem] md:w-38 md:h-20 object-contain"
-            src="/elnur.png"
-            alt="Logo"
-            
-          /> */}
-          <div className="relative">   <h1 className="text-blue-600 text-5xl font-bold tracking-wider">Tele</h1>
-          <div className="absolute -right-6 -top-1 w-6 h-6 rounded-full flex items-center justify-center bg-blue-600 p-1 ">
-          <span className=" text-white text-lg font-bold ">1</span>
+        <div className="flex-1 flex justify-start items-start">
+          <div className="relative">
+            <h1 className="text-blue-600 text-5xl font-bold tracking-wider">Tele</h1>
+            <div className="absolute -right-6 -top-1 w-6 h-6 rounded-full flex items-center justify-center bg-blue-600 p-1">
+              <span className="text-white text-lg font-bold">1</span>
+            </div>
           </div>
-          
-          </div>
-       
         </div>
-        <label htmlFor="menu-toggle" className="cursor-pointer md:hidden block">
+        <button
+          className="cursor-pointer md:hidden block"
+          onClick={toggleMenu}
+        >
           <svg
             className="fill-current text-gray-200"
             xmlns="http://www.w3.org/2000/svg"
@@ -53,9 +54,8 @@ const Hero = ({ onNavigate }) => {
             <title>menu</title>
             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
           </svg>
-        </label>
-        <input className="hidden" type="checkbox" id="menu-toggle" />
-        <div className="hidden md:flex md:items-center md:w-auto w-full" id="menu">
+        </button>
+        <div className={`md:flex md:items-center flex items-center justify-center md:w-auto w-full ${menuOpen ? "block" : "hidden"}`} id="menu">
           <nav>
             <ul className="md:flex items-center justify-between text-base text-gray-100 dark:text-gray-600 pt-4 md:pt-0">
               <li>
@@ -69,7 +69,7 @@ const Hero = ({ onNavigate }) => {
                 </Link>
               </li>
               <li>
-                <button className="md:p-4 py-3 px-0 block" href="#" onClick={() => onNavigate("kompaniya")}>
+                <button className="md:p-4 py-3 px-0 block" onClick={() => onNavigate("kompaniya")}>
                   Tariflər
                 </button>
               </li>
@@ -93,9 +93,9 @@ const Hero = ({ onNavigate }) => {
         </div>
       </header>
 
-      <div className="h-full w-full flex flex-col md:flex md:flex-row items-center  justify-between gap-12 p-4">
+      <div className="h-full w-full flex flex-col md:flex-row items-center justify-around gap-12 p-4">
         {/* Sol Taraf */}
-        <div className="w-full md:w-1/2 h-[50vh] md:h-[60%] bg-[url('/hero.png')] bg-cover bg-center bg-no-repeat rounded-md shadow-lg">
+        <div className="w-full md:w-1/2 h-[50vh] md:h-[60%] bg-[url('/3.png')] bg-center bg-cover bg-no-repeat rounded-md shadow-lg">
         </div>
 
         {/* Sağ Taraf */}
@@ -110,11 +110,11 @@ const Hero = ({ onNavigate }) => {
             </span>
           </h3>
           <p>
-          Tele 1 olaraq müasir texnologiyalardan istifadə edərək yüksək sürətli
+            Tele 1 olaraq müasir texnologiyalardan istifadə edərək yüksək sürətli
             internet və geniş zolaqlı TV paketləri ilə müştərilərimizi təmin edirik.
             Məqsədimiz, hər zaman sizə ən yaxşısını təqdim etməkdir.
           </p>
-          <div className="mt-4 ">
+          <div className="mt-4">
             <button className="px-6 py-2 hidden lg:block bg-rose-500 text-white rounded-md shadow-md hover:bg-rose-600 transition duration-300">
               Əlaqə Saxlayın
             </button>
@@ -124,7 +124,6 @@ const Hero = ({ onNavigate }) => {
     </div>
   );
 };
-
 
 // PropTypes doğrulamasını ekleyin
 Hero.propTypes = {

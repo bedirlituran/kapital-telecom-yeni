@@ -5,7 +5,7 @@ const Reklam = () => {
       {/* Sol Resim Kısmı */}
       <div className="flex-1 h-[400px] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
         <img
-          src="/reklam.jpg"
+          src="/4.png"
           alt="Tele 1"
           className="object-cover w-full cursor-pointer"
         />

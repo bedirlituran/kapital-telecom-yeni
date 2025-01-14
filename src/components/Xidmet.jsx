@@ -2,7 +2,7 @@ import Card from "./Card";
 
 const Xidmet = () => {
   return (
-    <div className="w-full h-full  p-4 sm:p-6 lg:p-8 bg-[url('/molekul.avif')] bg-no-repeat bg-cover">
+    <div className="w-full h-full p-4 sm:p-6 lg:p-8 bg-[url('/molekul.avif')] bg-no-repeat bg-cover">
       <h1 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4 text-left underline">
         Xidmətlərimiz
       </h1>
@@ -16,14 +16,14 @@ const Xidmet = () => {
 
       {/* Kartların Bulunduğu Alan */}
       <section className="mt-12">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
           <Card ame="Fiber Optik Internet" bg="/optik.jpg" />
           <Card ame="Ip Telefoniya" bg="/iptel.jpg" />
           <Card ame="Rəqəmsal Televiziya" bg="/tv.jpg" />
           <Card ame="Ip Tv 300+ kanal" bg="/iptv.jpg" />
-          <Card ame="Ip Domofon" bg="/domofo.jpg" />
-          <Card ame="Kamera sistemləri" bg="/cam.jpg" />
-          <Card ame="Şlaqbaum" bg="/slaq.jpg" />
+          <Card ame="Ip Domofon" bg="/domofo.jpg" className="hidden sm:block" />
+          <Card ame="Kamera sistemləri" bg="/cam.jpg" className="hidden sm:block" />
+          <Card ame="Şlaqbaum" bg="/slaq.jpg" className="hidden sm:block" />
         </div>
       </section>
     </div>
