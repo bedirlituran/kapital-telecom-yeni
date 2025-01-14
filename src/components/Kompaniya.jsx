@@ -13,20 +13,26 @@ const Kompaniya = () => {
         <Card2
           title="Tarif 1"
           desc="Internet"
-          desc2="Sürət 100 mbit/s"
-          desc3="Aylıq ödəniş 25 azn"
+          desc2="Sürət 50 mbit/s"
+          desc3="Aylıq ödəniş 18 azn"
         />
         <Card2
           title="Tarif 2"
           desc="Internet, Tv"
           desc2="Sürət 50Mbit/s, Kanal sayı 300+"
-          desc3="Aylıq ödəniş 31 azn"
+          desc3="Aylıq ödəniş 22 azn"
         />
         <Card2
           title="Tarif 3"
           desc="İnternet+TV+Şəhər telefonu"
           desc2="Sürət 50Mbit/s, Kanal sayı 300+"
-          desc3="Aylıq ödəniş 34,5 azn"
+          desc3="Aylıq ödəniş 25 azn"
+        />
+         <Card2
+          title="Tarif 4"
+          desc="TV"
+          desc2="Kanal sayı 300+"
+          desc3="Aylıq ödəniş 7 azn"
         />
       </div>
 

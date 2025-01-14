@@ -1,6 +1,6 @@
 function Footer(){
  return (
-   <div className="p-1 pt-8  sm:max-w-full md:max-w-full  bg-gray-900">
+   <div className="p-1 pt-8  sm:max-w-full md:max-w-full  bg-gray-900 px-5">
      <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
        <div className="sm:col-span-2">
          <a
@@ -10,7 +10,11 @@ function Footer(){
            className="inline-flex items-center"
          >
         
-        <h4 className="text-white text-lg font-bold">Kapital Telecom</h4>
+        <div className="relative">   <h1 className="text-blue-600 text-5xl font-bold tracking-wide">Tele</h1>
+          <div className="absolute -right-6 -top-1 w-6 h-6 rounded-full flex items-center justify-center bg-blue-600 p-1 ">
+          <span className=" text-white text-lg font-bold ">1</span>
+          </div>
+          </div>
          </a>
          <div className="mt-6 lg:max-w-sm">
            <p className="text-sm text-white">
@@ -26,23 +30,23 @@ function Footer(){
          <div className="flex">
            <p className="mr-1 text-white">Tel:</p>
            <a
-             href="tel:+994123109393"
+             href="tel:+994774330505"
              aria-label="Our phone"
              title="Our phone"
              className="transition-colors duration-300 text-white hover:text-deep-purple-800"
            >
-             (012) 310 93 93
+             (077) 433 05 05
            </a>
          </div>
          <div className="flex">
            <p className="mr-1 text-white">Email:</p>
            <a
-             href="mailto:sales@kapital.az"
+             href="mailto:sales@tele1.az"
              aria-label="Our email"
              title="Our email"
              className="transition-colors duration-300 text-white hover:text-deep-purple-800"
            >
-             sales@kapital.az
+             sales@tele1.az
            </a>
          </div>
     
@@ -85,7 +89,7 @@ function Footer(){
      </div>
      <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
        <p className="text-sm text-white">
-       © Kapital mmc . Bütün hüquqlar qorunur.
+       © Tele1 mmc . Bütün hüquqlar qorunur.
        </p>
        <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
          <li>

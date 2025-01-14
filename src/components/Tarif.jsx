@@ -15,7 +15,7 @@ const Tarif = () => {
     <div className="min-h-screen bg-[url('/molekul.avif')] bg-no-repeat bg-cover dark:bg-gray-800 p-8 flex flex-col items-center justify-center">
       {/* Başlık */}
       <h1 className="text-xl md:text-3xl text-left font-bold text-gray-800 dark:text-white mb-8">
-        Kapital telecom-a qoşulduqda əldə edəcəyiniz üstünlüklər.
+        Tele1-ə qoşulduqda əldə edəcəyiniz üstünlüklər.
       </h1>
 
       {/* Hexagon Grid */}

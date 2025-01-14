@@ -6,23 +6,23 @@ const Reklam = () => {
       <div className="flex-1 h-[400px] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
         <img
           src="/reklam.jpg"
-          alt="Kapital Telecom"
+          alt="Tele 1"
           className="object-cover w-full cursor-pointer"
         />
       </div>
       {/* Sağ Metin Kısmı */}
-      <div className="flex-1 text-center  md:text-left  md:pl-8 mt-6 md:mt-0 lg:p-8">
-        <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-4">
-          Kapital Telecom
-        </h2>
+      <div className="flex-1 text-center justify-center items-center  md:text-left  md:pl-8 mt-6 md:mt-0 lg:p-8">
+      <div className="relative">   <h1 className="text-blue-600 text-5xl font-bold tracking-wide">Tele<span>1</span></h1>
+         
+          </div>
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-  Kapital Telecom, yüksək sürətli internet və TV həlləri təqdim edərək
+  Yüksək sürətli internet və TV həlləri təqdim edərək
   evinizin və iş yerinizin bağlantı ehtiyaclarını ən yaxşı şəkildə
   qarşılayır. Geniş əhatə dairəmiz, uyğun qiymətlərimiz və üstün xidmət
   keyfiyyətimizlə hər zaman yanınızdayıq.
 </p>
 <p className="mt-4 text-gray-700 dark:text-gray-300 leading-relaxed">
-  İstər əyləncə, istər iş üçün; Kapital Telecom ilə limitsiz bağlantının
+  İstər əyləncə, istər iş üçün; Tele 1 ilə limitsiz bağlantının
   zövqünü çıxarın. Müasir infrastrukturumuz sayəsində fasiləsiz internet
   təcrübəsi yaşaya bilər, çox müxtəlif TV kanalları ilə ailənizlə birlikdə
   gözəl vaxt keçirə bilərsiniz.

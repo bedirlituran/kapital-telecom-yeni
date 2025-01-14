@@ -3,7 +3,7 @@ const AboutUs = () => {
       <section className="bg-gray-100 py-12 bg-[url('/molekul.avif')] bg-center bg-no-repeat bg-cover">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold text-gray-800">Hakkımızda</h1>
+            <h1 className="text-4xl font-bold text-gray-800">Haqqımızda</h1>
             <p className="mt-4 text-gray-600">
               Bizim hikayemiz, müştərilərimizə ən yaxşı xidməti təqdim etmək üçün başladığımız bir yolculuqdur.
             </p>
@@ -14,7 +14,7 @@ const AboutUs = () => {
             <div className="bg-white p-8 shadow-lg rounded-lg">
               <h2 className="text-2xl font-semibold text-gray-800">Şirkətimiz</h2>
               <p className="mt-4 text-gray-600">
-                2010-cu ildən fəaliyyət göstərən şirkətimiz, texnologiya və innovasiyanın gücündən istifadə edərək müştərilərinə həllər təqdim edir. 
+                2016-cı ildən fəaliyyət göstərən şirkətimiz, texnologiya və innovasiyanın gücündən istifadə edərək müştərilərinə həllər təqdim edir. 
                 Məqsədimiz, hər addımda müştərilərimizə dəyər qatmaqdır.
               </p>
             </div>
