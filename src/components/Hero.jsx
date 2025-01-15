@@ -84,7 +84,7 @@ const Hero = ({ onNavigate }) => {
                 </button>
               </li>
               <li>
-                <a className="md:p-2 border border-1 bg-red-600 block md:mb-0 mb-2 rounded dark:text-white" href="https://fpay.az/guest/payments/new-payment/category/undefined/merchant/5012">
+                <a className="md:p-2 border border-1 bg-red-600 block md:mb-0 mb-2 rounded dark:text-white" href="https://short.fpay.az/vjXTlOlJ">
                   Ödəniş et
                 </a>
               </li>
