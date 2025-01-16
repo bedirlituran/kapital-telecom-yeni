@@ -12,13 +12,7 @@ const Korporativ = () => {
           Korporativ tariflər
         </h1>
         <p className="mt-4 text-sm sm:text-base md:text-lg lg:text-lg leading-relaxed text-gray-700">
-          Fərdi internet istifadəçiləri üçün 5 Mbit/s-dən başlayaraq 100 Mbit/s-ə qədər internet sürəti təklif edirik.<br />
-          Korporativ müştərilərə yerləşdikləri ərazidən asılı olaraq fərqli texnologiyadan (FO, Radio Relay) <br />
-          istifadə etməklə şirkərimizin tələblərinə uyğun yüksək sürətli internet, IP telefoniya (SİP),<br />
-          Rəqəmsal TV, IP TV, məlumatların ötürülməsi (VPN) və digər telekommunikasiya<br />
-          xidmətləri təklif olunur. Korporativ müştərilər üçün təqdim edilən tarif<br />
-          planları fərqlidir və müəssisənin iş fəaliyyətindən asılı olaraq<br />
-          ofisə baxıldıqdan sonra müəyyən edilir.
+        Fərdi internet istifadəçiləri üçün 5 Mbit/s-dən başlayaraq 50 Mbit/s-ə qədər internet sürəti təklif edirik. Korporativ müştərilərə yerləşdikləri ərazidən asılı olaraq fərqli texnologiyadan (FO, Radio Relay) istifadə etməklə şirkətlərimizin tələblərinə uyğun yüksək sürətli internet,  məlumatların ötürülməsi (VPN) və digər telekommunikasiya xidmətləri təklif olunur. Korporativ müştərilər üçün təqdim edilən tarif planları fərqlidir və müəssisənin iş fəaliyyətindən asılı olaraq ofisə baxıldıqdan sonra müəyyən edilir. Hər müştərinin xüsusi ehtiyaclarına uyğun fərdi həllər hazırlanır. Məlumat təhlükəsizliyi və davamlılıq, korporativ müştərilərimiz üçün əsas prioritetlərimizdəndir.
         </p>
       </div>
     </div>

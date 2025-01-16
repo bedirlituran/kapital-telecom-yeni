@@ -11,7 +11,7 @@ const Hero = ({ onNavigate }) => {
       strings: [
         "",
         "Yüksək Sürətli İnternet Xidməti,",
-        "Geniş Çeşidli TV Paketləri,",
+        // "Geniş Çeşidli TV Paketləri,",
         "Evdə və İşdə Dayanıqlı Bağlantı,",
         "24/7 Müştəri Dəstəyi.",
       ],
@@ -32,14 +32,15 @@ const Hero = ({ onNavigate }) => {
   return (
     <div className="w-full h-screen py-1 bg-gray-900 dark:bg-gray-200">
       <header className="lg:px-16 px-4 flex flex-wrap items-center py-1 shadow-lg">
-        <div className="flex-1 flex justify-start items-start">
-          <div className="relative">
-            <h1 className="text-blue-600 text-5xl font-bold tracking-wider">Tele</h1>
-            <div className="absolute -right-6 -top-1 w-6 h-6 rounded-full flex items-center justify-center bg-blue-600 p-1">
-              <span className="text-white text-lg font-bold">1</span>
-            </div>
-          </div>
-        </div>
+      <div className="flex-1 flex justify-start items-start">
+  <div className="relative">
+    <h1 className="text-blue-600 text-4xl sm:text-5xl font-bold tracking-wider">Tele</h1>
+    <div className="absolute -right-6 -top-1 w-5 h-5 sm:w-6 sm:h-6 rounded-full flex items-center justify-center bg-blue-600 p-1">
+      <span className="text-white text-sm sm:text-lg font-bold">1</span>
+    </div>
+  </div>
+</div>
+
         <button
           className="cursor-pointer md:hidden block"
           onClick={toggleMenu}
@@ -73,18 +74,18 @@ const Hero = ({ onNavigate }) => {
                   Tariflər
                 </button>
               </li>
-              <li>
+              {/* <li>
                 <Link className="md:p-4 py-3 px-0 block" to="/Kanallar">
                   Tv Kanallar
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <button className="md:p-4 py-3 px-0 block" onClick={() => onNavigate("footer")}>
                   Əlaqə
                 </button>
               </li>
               <li>
-                <a className="md:p-2 border border-1 bg-red-600 block md:mb-0 mb-2 rounded dark:text-white" href="https://short.fpay.az/vjXTlOlJ">
+                <a className="md:p-2 border text-center border-1 bg-red-600 block md:mb-0 mb-2 rounded dark:text-white" href="https://short.fpay.az/vjXTlOlJ">
                   Ödəniş et
                 </a>
               </li>
@@ -106,13 +107,11 @@ const Hero = ({ onNavigate }) => {
           <h3 className="capitalize text-rose-400">
             Biz{" "}
             <span className="typing text-green-500 dark:text-green-700">
-              yüksək keyfiyyətli internet və TV xidmətləri təklif edirik
+              yüksək keyfiyyətli internet xidməti təklif edirik
             </span>
           </h3>
           <p>
-            Tele 1 olaraq müasir texnologiyalardan istifadə edərək yüksək sürətli
-            internet və geniş zolaqlı TV paketləri ilə müştərilərimizi təmin edirik.
-            Məqsədimiz, hər zaman sizə ən yaxşısını təqdim etməkdir.
+          Tele 1 olaraq müasir texnologiyalardan istifadə edərək yüksək sürətli internet xidməti ilə müştərilərimizi təmin edirik. Məqsədimiz, hər zaman sizə ən yaxşısını təqdim etməkdir. Eyni zamanda, etibarlı və dayanıqlı bağlantılarla ev və iş yerləri üçün ideal həllər təklif edirik. Sizə ən qabaqcıl xidmətləri çatdırmaq üçün komandamız davamlı olaraq inkişaf edir və yeni texnologiyaları tətbiq edir.
           </p>
           <div className="mt-4">
             <button className="px-6 py-2 hidden lg:block bg-rose-500 text-white rounded-md shadow-md hover:bg-rose-600 transition duration-300">

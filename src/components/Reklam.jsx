@@ -16,16 +16,13 @@ const Reklam = () => {
          
           </div>
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-  Yüksək sürətli internet və TV həlləri təqdim edərək
+  Yüksək sürətli internet təqdim edərək
   evinizin və iş yerinizin bağlantı ehtiyaclarını ən yaxşı şəkildə
   qarşılayır. Geniş əhatə dairəmiz, uyğun qiymətlərimiz və üstün xidmət
   keyfiyyətimizlə hər zaman yanınızdayıq.
 </p>
 <p className="mt-4 text-gray-700 dark:text-gray-300 leading-relaxed">
-  İstər əyləncə, istər iş üçün; Tele 1 ilə limitsiz bağlantının
-  zövqünü çıxarın. Müasir infrastrukturumuz sayəsində fasiləsiz internet
-  təcrübəsi yaşaya bilər, çox müxtəlif TV kanalları ilə ailənizlə birlikdə
-  gözəl vaxt keçirə bilərsiniz.
+İstər əyləncə, istər iş üçün; Tele 1 ilə limitsiz bağlantının zövqünü çıxarın. Müasir infrastrukturumuz sayəsində fasiləsiz internet təcrübəsi yaşaya bilərsiniz. Sürətli və etibarlı xidmətlərimiz ilə hər zaman əlaqədə qalın. Həyatın hər anında internetin gücündən faydalanaraq daha çoxunu kəşf edin.
 </p>
 <button className="mt-6 px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition">
   Daha Ətraflı Məlumat

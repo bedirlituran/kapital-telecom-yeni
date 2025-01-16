@@ -18,22 +18,22 @@ const Kompaniya = () => {
         />
         <Card2
           title="Tarif 2"
-          desc="Internet, Tv"
-          desc2="Sürət 50Mbit/s, Kanal sayı 300+"
-          desc3="Aylıq ödəniş 22 azn"
+          desc="Internet"
+          desc2="Sürət 100Mbit/s"
+          desc3="Aylıq ödəniş 25 azn"
         />
         <Card2
           title="Tarif 3"
-          desc="İnternet+TV+Şəhər telefonu"
-          desc2="Sürət 50Mbit/s, Kanal sayı 300+"
-          desc3="Aylıq ödəniş 25 azn"
+          desc="Korporativ Tarif  (obyekt və ofis üçün)"
+          desc2="Sürət 50Mbit/s"
+          desc3="Aylıq ödəniş 20 azn"
         />
-         <Card2
+         {/* <Card2
           title="Tarif 4"
           desc="TV"
           desc2="Kanal sayı 300+"
           desc3="Aylıq ödəniş 7 azn"
-        />
+        /> */}
       </div>
 
       {/* Şəhid ailələri üçün özel tarif */}
@@ -44,11 +44,11 @@ const Kompaniya = () => {
             Qazi tarif planından yararlanmaq üçün qoşulma zamanı müvafiq sənəd
             təqdim edilməlidir.
             <br />
-            Sürət 20Mbit/s, Kanal sayı 300+
+            Sürət 20Mbit/s
           </h1>
           <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-full bg-red-600 absolute -right-6 md:-right-10 top-1/2 -translate-y-1/2 flex items-center justify-center">
             <h1 className="text-white text-xs sm:text-sm md:text-base font-bold text-center">
-              Aylıq ödəniş 15 Azn
+              Aylıq ödəniş 10 Azn
             </h1>
           </div>
         </div>

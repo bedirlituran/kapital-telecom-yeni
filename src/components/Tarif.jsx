@@ -1,14 +1,14 @@
 const Tarif = () => {
   const items = [
     { icon: "📡", description: "Online və terminallardan ödəniş etmə imkanı" },
-    { icon: "📺", description: "250-dən çox rəqəmsal kanal" },
     { icon: "🔒", description: "Static İp xidməti" },
-    { icon: "📞", description: "Şəhər telefonu" },
+    { icon: "💻", description: "Sürətli və etibarlı internet bağlantıs"},
     { icon: "🌍", description: "100mbit/s saniyyəyə qədər sürət" },
     { icon: "💡", description: "7/24 zəng mərkəzi və Texniki dəstək" },
     { icon: "📦", description: "Daimi kompaniyalar" },
-    { icon: "💻", description: "Yeni nəsil cihazlar" },
+    { icon: "📞", description: "Yeni nəsil cihazlar" },
     { icon: "⭐", description: "Müştəri məmnuniyyəti" },
+    { icon: "🌐", description: "Limitsiz gecə trafiki" }
   ];
 
   return (

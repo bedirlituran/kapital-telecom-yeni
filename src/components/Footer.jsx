@@ -18,7 +18,7 @@ function Footer(){
          </a>
          <div className="mt-6 lg:max-w-sm">
            <p className="text-sm text-white">
-           Şirkətimiz, yüksək keyfiyyətli internet TV və təhlükəsizlik sistemləri ilə evinizə və iş yerinizə rahatlıq və təhlükəsizlik gətirir.
+           Şirkətimiz, yüksək keyfiyyətli internet  və təhlükəsizlik sistemləri ilə evinizə və iş yerinizə rahatlıq və təhlükəsizlik gətirir.
            </p>
           
          </div>
