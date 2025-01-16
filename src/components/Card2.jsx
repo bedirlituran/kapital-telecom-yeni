@@ -7,7 +7,7 @@ const Card2 = ({title , desc ,desc2,desc3}) => {
         <div className="bg-gray-100 w-full text-center flex-5 text-red-400 font-bold">{title}</div>
         <div className="bg-red-600 flex-1 flex-col font-bold items-center justify-between border w-full border-red-400">
             <div>
-            <h1 className="text-center text-white">{desc}</h1>
+            <h1 className="text-center text-white mt-3">{desc}</h1>
             </div>
             <div>
             <p className="text-center mt-4 text-white">{desc2}</p>

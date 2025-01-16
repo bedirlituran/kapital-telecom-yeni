@@ -2,7 +2,7 @@ import Card2 from "./Card2";
 
 const Kompaniya = () => {
   return (
-    <div className="flex-col bg-[url('/molekul.avif')] h-full w-full bg-no-repeat bg-cover">
+    <div className="flex-col bg-[url('/molekul.avif')] h-full w-full bg-no-repeat bg-cover  lg:p-8">
       {/* Başlık */}
       <h1 className="text-left text-lg sm:text-xl md:text-3xl p-6 md:p-8 font-bold underline">
         Tarif Planları
@@ -28,6 +28,11 @@ const Kompaniya = () => {
           desc2="Sürət 50Mbit/s"
           desc3="Aylıq ödəniş 20 azn"
         />
+          <Card2
+          title="Tarif 4"
+          desc="Statik Ip"
+          desc3="Aylıq ödəniş 5 azn"
+        />
          {/* <Card2
           title="Tarif 4"
           desc="TV"
@@ -37,7 +42,7 @@ const Kompaniya = () => {
       </div>
 
       {/* Şəhid ailələri üçün özel tarif */}
-      <div className="p-6 sm:p-10 flex flex-col items-center">
+      {/* <div className="p-6 sm:p-10 flex flex-col items-center">
         <div className="block w-full sm:w-[90%] md:w-[65%] h-auto border border-0.5 border-black relative rounded-2xl p-6 md:p-10">
           <h1 className="text-left font-bold text-sm sm:text-base md:text-lg leading-relaxed">
             Şəhid ailələrinə, Qazi və veteranlara qoşulma haqqı ödənişsizdir.
@@ -55,7 +60,7 @@ const Kompaniya = () => {
         <div className="mt-4 font-bold text-blue-600 text-sm sm:text-base md:text-lg">
           Static ip Aylıq 5 azn
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

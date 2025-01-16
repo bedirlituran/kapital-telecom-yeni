@@ -8,7 +8,7 @@ const Xidmet = () => {
       </h1>
       <p className="text-gray-600 text-base sm:text-lg font-semibold mb-6 mt-6 text-left">
         Şirkətimiz fiziki şəxsləri, özəl və dövlət qurumlarını sürətli Fiber
-        Optik İnternet, İP telefoniya,Domofon,
+        Optik İnternet, İP telefoniya, Domofon,
         Şlaqbaum və bir sıra digər xidmətləri ilə təmin edir. İnternetə ən
         sərfəli qoşulma, Müştəri məmnuniyyəti, sürətli yükləmələr və digər
         üstünlüklərlə fəaliyyət göstəririk.
@@ -16,11 +16,11 @@ const Xidmet = () => {
 
       {/* Kartların Bulunduğu Alan */}
       <section className="mt-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 justify-items-center">
           <Card ame="Fiber Optik Internet" bg="/optik.jpg" />
-          <Card ame="Ip Domofon" bg="/domofo.jpg" className="hidden sm:block" />
-          <Card ame="Kamera sistemləri" bg="/cam.jpg" className="hidden sm:block" />
-          <Card ame="Şlaqbaum" bg="/slaq.jpg" className="hidden sm:block" />
+          <Card ame="Ip Domofon" bg="/domofo.jpg"/>
+          <Card ame="Kamera sistemləri" bg="/cam.jpg"/>
+          <Card ame="Şlaqbaum" bg="/slaq.jpg"/>
         </div>
       </section>
     </div>

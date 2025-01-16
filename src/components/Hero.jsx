@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Typed from "typed.js";
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-
+import { BsTelephoneForward } from "react-icons/bs";
 const Hero = ({ onNavigate }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -60,7 +60,7 @@ const Hero = ({ onNavigate }) => {
           <nav>
             <ul className="md:flex items-center justify-between text-base text-gray-100 dark:text-gray-600 pt-4 md:pt-0">
               <li>
-                <a className="md:p-4 py-3 px-0 block text-rose-500" href="#" onClick={() => onNavigate("hero")}>
+                <a className="md:p-4 py-3 px-0 block " href="#" onClick={() => onNavigate("hero")}>
                   Ana səhifə
                 </a>
               </li>
@@ -85,7 +85,7 @@ const Hero = ({ onNavigate }) => {
                 </button>
               </li>
               <li>
-                <a className="md:p-2 border text-center border-1 bg-red-600 block md:mb-0 mb-2 rounded dark:text-white" href="https://short.fpay.az/vjXTlOlJ">
+                <a className="md:p-2 border text-center border-1 bg-blue-600 block md:mb-0 mb-2 rounded dark:text-white" href="https://short.fpay.az/vjXTlOlJ">
                   Ödəniş et
                 </a>
               </li>
@@ -114,9 +114,18 @@ const Hero = ({ onNavigate }) => {
           Tele 1 olaraq müasir texnologiyalardan istifadə edərək yüksək sürətli internet xidməti ilə müştərilərimizi təmin edirik. Məqsədimiz, hər zaman sizə ən yaxşısını təqdim etməkdir. Eyni zamanda, etibarlı və dayanıqlı bağlantılarla ev və iş yerləri üçün ideal həllər təklif edirik. Sizə ən qabaqcıl xidmətləri çatdırmaq üçün komandamız davamlı olaraq inkişaf edir və yeni texnologiyaları tətbiq edir.
           </p>
           <div className="mt-4">
-            <button className="px-6 py-2 hidden lg:block bg-rose-500 text-white rounded-md shadow-md hover:bg-rose-600 transition duration-300">
-              Əlaqə Saxlayın
-            </button>
+            <button className="px-6 py-2  hidden lg:items-center lg:gap-4 lg:justify-around lg:flex bg-rose-500 text-white rounded-md shadow-md hover:bg-rose-600 transition duration-300">
+            <a
+             href="tel:+994774330505"
+             aria-label="Our phone"
+             title="Our phone"
+             className="transition-colors duration-300 text-white hover:text-deep-purple-800"
+           >
+             Əlaqə saxlayın
+           </a>
+<div>
+<BsTelephoneForward />
+</div>            </button>
           </div>
         </div>
       </div>
