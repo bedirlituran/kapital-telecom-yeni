@@ -33,6 +33,12 @@ const Kompaniya = () => {
           desc="Statik Ip"
           desc3="Aylıq ödəniş 5 azn"
         />
+           <Card2
+          title="Tarif 5"
+          desc="Bina evləri üçün"
+          desc2="Sürət 50Mbit/s"
+          desc3="Aylıq ödəniş 17 azn"
+        />
          {/* <Card2
           title="Tarif 4"
           desc="TV"
