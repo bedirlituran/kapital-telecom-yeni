@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import Kompaniya from "./components/Kompaniya";
+
 import Korporativ from "./components/Korporativ";
 import Reklam from "./components/Reklam";
 import Tarif from "./components/Tarif";
@@ -10,6 +10,7 @@ import Haqqimizda from "./Haqqimizda";
 import { Routes, Route } from "react-router-dom";
 import Kanallar from "./Kanallar";
 import WhatsappButton from "./components/WhatsAppButton";
+import TarifPlans from "./components/Kompaniya";
 function App() {
   const kompaniyaRef = useRef(null);
   const footref = useRef(null);
@@ -53,7 +54,7 @@ function App() {
               <Korporativ />
             </div>
             <div ref={kompaniyaRef}>
-              <Kompaniya />
+              <TarifPlans />
             </div>
             <div ref={footref}>
               <Footer />

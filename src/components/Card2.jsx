@@ -12,7 +12,7 @@ const Card2 = ({ title, image, price }) => {
         <img
           src={image}
           alt={title}
-          className="w-full h-full object-contain"
+          className="w-full h-full object-cover"
         />
       </div>
 
