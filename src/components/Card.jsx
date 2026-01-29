@@ -8,7 +8,7 @@ const Card = ({bg,ame}) => {
         <img
           src={bg}
           alt={ame}
-          className="object-cover w-full h-full transition-all duration-300 hover:opacity-90"
+          className="object-contain w-full h-full transition-all duration-300 hover:opacity-90"
         />
       </div>
 
